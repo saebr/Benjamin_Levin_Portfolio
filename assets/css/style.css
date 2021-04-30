@@ -1,8 +1,22 @@
 
-.textblue {
-    color: #218ffe;
+.text-blue {
+    color: #218ffe !important;
 }
 
 .bg-dark {
-    background-color: black;
+    background-color: #212121 !important;
 }
+
+.bg-accent {
+    background-color: #323232 !important;
+}
+
+.btn-primary {
+    background-color: #218ffe !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .d-flex {
+      display: column !important;
+    }
+  }
